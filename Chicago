@@ -1,7 +1,7 @@
 SELECT * FROM ChicagoCrimeData; 
 SELECT * FROM ChicagoPublicSchools; 
-SELECT * FROM ChicagoCensusData
-;
+SELECT * FROM ChicagoCensusData; 
+
 -- COUNT OF EACH CRIME. 
 SELECT PRIMARY_TYPE, 
 	COUNT (PRIMARY_TYPE) AS CRIME_COMMITED
